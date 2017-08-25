@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>rockers-api</groupId>
+    <artifactId>rockers-api-parent</artifactId>
+    <version>0.0.1</version>
+  </parent>
+  <groupId>rockers-api-repository</groupId>
+  <artifactId>rockers-api-repository</artifactId>
+  <dependencies>
+	<dependency>
+		<groupId>rockers-api</groupId>
+		<artifactId>rockers-api-model</artifactId>
+		<version>${rockers-api-version}</version>
+	</dependency>
+  </dependencies>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+</project>
